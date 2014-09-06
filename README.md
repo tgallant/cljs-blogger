@@ -4,6 +4,10 @@
 
 ##Usage
 
+Install dependencies
+
+`lein deps`
+
 Compile the javascript
 
 `lein cljsbuild once`
