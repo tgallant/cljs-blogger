@@ -1,6 +1,6 @@
 ##Example
 
-[https://tgallant.github.io](https://tgallant.github.io)
+[http://scheme.rocks/cljs-blogger/](http://scheme.rocks/cljs-blogger/)
 
 ##Usage
 
