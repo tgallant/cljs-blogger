@@ -14873,7 +14873,7 @@ function or(a) {
               var c = document.getElementById("app"), d = lj.e(b[2]), d = Zj(d), c = c.innerHTML = d;
               return Yp(b, c);
             }
-            return 1 === c ? (c = xj.e(new U(null, 3, 5, V, ["/md/", a, ".md"], null)), c = qq(c), Xp(b, c)) : null;
+            return 1 === c ? (c = xj.e(new U(null, 3, 5, V, ["md/", a, ".md"], null)), c = qq(c), Xp(b, c)) : null;
           };
         }(b), b);
       }(), e = function() {

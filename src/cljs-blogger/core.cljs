@@ -12,7 +12,7 @@
 (enable-console-print!)
 
 (defn load-md [title]
-  (go (let [txt (<! (http/get (join ["/md/" title ".md"])))
+  (go (let [txt (<! (http/get (join ["md/" title ".md"])))
             field (.getElementById js/document "app")]
         (set! (.-innerHTML field) (md->html (:body txt))))))
 
